@@ -3,7 +3,7 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primery-white-color: #ffffff;
-  --button-color: #f5f4fa;
+  --section-bg-color: #f5f4fa;
   --primery-bg-color: #f5f5f5;
   --logo-dark-color: #000000;
   --hero-background-color: #2f303a;
@@ -162,6 +162,10 @@ h6 {
   color: var(--primery-white-color);
   text-decoration: none;
   font-style: normal;
+}
+
+.cards-list {
+  background-color: var(--section-bg-color);
 }
 
 .cards-title {
