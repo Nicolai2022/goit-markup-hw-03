@@ -168,7 +168,6 @@ h6 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 
 .cards-text {
@@ -177,5 +176,8 @@ h6 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.link {
   text-decoration: none;
 }
