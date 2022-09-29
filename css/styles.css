@@ -48,11 +48,13 @@ h6 {
   font-style: normal;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
-.hover-button:hover {
+.hover-button:hover,
+.hover-button:focus {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
 }
@@ -83,7 +85,8 @@ h6 {
   text-transform: uppercase;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
