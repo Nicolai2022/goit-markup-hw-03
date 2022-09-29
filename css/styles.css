@@ -45,9 +45,10 @@ h6 {
   font-weight: 500;
   font-size: 1.14;
   line-height: 16px;
+  font-style: normal;
 }
 
-.hover-link:hover {
+.contact-link:hover {
   color: var(--accent-color);
 }
 
