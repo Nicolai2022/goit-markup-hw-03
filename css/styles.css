@@ -11,7 +11,7 @@
 
 .body {
   color: var(--primery-text-color);
-  background-color: var(--primery-bg-color);
+  background-color: var(--primery-white-color);
   font-family: Roboto sans-serif;
   letter-spacing: 0.02em;
 }
@@ -48,18 +48,27 @@ h6 {
   font-style: normal;
 }
 
+/* .nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+} */
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
 }
 
+/* buttons портфоліо */
 .hover-button:hover,
 .hover-button:focus {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
+  border: var(--accent-color);
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -67,12 +76,19 @@ h6 {
   color: var(--accent-color);
 }
 
+/* Студія, Портфоліо, Контакти */
+
 .nav-list .nav-link {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--accent-color);
 }
 
 .hero {
@@ -83,15 +99,33 @@ h6 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-.hero-button:hover,
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+/* button замовити послугу */
+.hero-button {
+  min-width: 216px;
+  /* min-height: 50px; */
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+  padding: 10px 34px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: var(--accent-color);
+  /* margin-top: auto;
+  display: block; */
+}
+
+/* .hero-button:hover,
 .hero-button:focus {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
+} */
 
 .visually-hidden {
   position: absolute;
@@ -106,7 +140,14 @@ h6 {
   margin: -1px;
 }
 
+.fiatures {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .fiatures-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: var(--primery-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -116,6 +157,8 @@ h6 {
 }
 
 .fiatures-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -183,4 +226,34 @@ h6 {
 
 .link {
   text-decoration: none;
+}
+
+.box {
+  width: 370px;
+  height: 404px;
+  background-color: var(--primery-white-color);
+}
+
+.header {
+  width: 1600px;
+  /* height: 80px; */
+  background-color: var(--primery-white-color);
+}
+
+.container {
+  width: 1200px;
+  background-color: gold;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  /* height: 1360px;
+  margin-left: 215px;
+  margin-top: 174px;
+  background-color: var(--primery-bg-color); */
+}
+
+.section.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
