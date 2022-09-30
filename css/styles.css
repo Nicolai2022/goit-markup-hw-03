@@ -76,15 +76,64 @@ h6 {
   color: var(--accent-color);
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* Студія, Портфоліо, Контакти */
 
 .nav-list .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  margin-right: 50px;
 }
+
+/* .nav-list.nav-link: (last-child) {
+  margin-right: 50;
+} */
+
+/* .nav-list .nav-link:last-child {
+  margin-right: 0;
+} */
+
+/* .nav-list + .nav-list {
+  margin-left: auto;
+} */
+.contact-item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+/* .contact-list + .contact-list {
+  margin-left: auto;
+} */
+
+.contact-list {
+  display: flex;
+}
+
+/* .nav-link {
+  display: flex;
+} */
+
+/* .nav-item {
+  display: flex;
+  flex-direction: row;
+} */
 
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
@@ -242,11 +291,12 @@ h6 {
 
 .container {
   width: 1200px;
+  /* height: 80px; */
   background-color: gold;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
   /* height: 1360px;
   margin-left: 215px;
   margin-top: 174px;
