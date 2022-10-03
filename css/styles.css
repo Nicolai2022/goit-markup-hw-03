@@ -111,11 +111,12 @@ h6 {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .nav-list {
   display: flex;
+  margin-left: 93px;
 }
 
 /* .contact-list + .contact-list {
@@ -124,6 +125,7 @@ h6 {
 
 .contact-list {
   display: flex;
+  margin-left: auto;
 }
 
 /* .nav-link {
@@ -192,6 +194,10 @@ h6 {
 .fiatures {
   margin-top: 94px;
   margin-bottom: 94px;
+}
+
+.fiatures-list {
+  display: ;
 }
 
 .fiatures-title {
