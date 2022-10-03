@@ -197,7 +197,13 @@ h6 {
 }
 
 .fiatures-list {
-  display: ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fiatures-list .fiatures-item {
+  width: 270px;
+  background-color: tomato;
 }
 
 .fiatures-title {
