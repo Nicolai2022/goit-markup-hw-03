@@ -157,6 +157,9 @@ h6 {
   text-transform: uppercase;
   margin-bottom: 30px;
   height: 600px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-hero-title {
@@ -329,6 +332,18 @@ h6 {
 
 .footer {
   background-color: var(--hero-background-color);
+  width: 1600px;
+  height: 252px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+}
+
+.footer-logo {
+  padding-top: 60px;
+  /* padding-bottom: 20px; */
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .logo-liht {
@@ -339,6 +354,12 @@ h6 {
   color: var(--primery-white-color);
   text-decoration: none;
   font-style: normal;
+}
+
+.address-item {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 14px;
 }
 
 .cards-list {
@@ -436,7 +457,4 @@ h6 {
   margin-top: 100px;
   margin-bottom: 50px;
   border-radius: 4px;
-}
-.footer {
-  margin-top: 94px;
 }
