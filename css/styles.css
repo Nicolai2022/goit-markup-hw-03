@@ -224,6 +224,10 @@ h6 {
   margin: -1px;
 }
 
+.about {
+  margin-bottom: 94px;
+}
+
 .fiatures {
   margin-top: 94px;
   margin-bottom: 94px;
@@ -232,6 +236,8 @@ h6 {
 .fiatures-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 94px;
+  margin-bottom: 118px;
 }
 
 .fiatures-list .fiatures-item {
@@ -293,6 +299,7 @@ h6 {
 
 .title {
   color: var(--primery-text-color);
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -306,6 +313,8 @@ h6 {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .team-text {
@@ -314,6 +323,8 @@ h6 {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .footer {
