@@ -35,6 +35,11 @@ h6 {
   text-decoration: none;
 }
 
+.footer-logo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .logo-dark {
   color: var(--logo-dark-color);
 }
@@ -151,15 +156,39 @@ h6 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  height: 600px;
+}
+
+.section-hero-title {
+  text-align: center;
+  /* width: 696px; */
+  /* margin-top: 94px; */
+  margin-bottom: 50px;
+}
+
+.about .about-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .hero-title {
   margin-top: 0px;
-  margin-bottom: 30px;
+  padding-top: 200px;
+  /* margin-bottom: 30px; */
+  margin-right: 230px;
+  margin-left: 230px;
+  /* width: 696px; */
+  /* font-weight: 900; */
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* button замовити послугу */
 .hero-button {
+  /* padding-top: 30px;
+  padding-bottom: 200px; */
   min-width: 216px;
   /* min-height: 50px; */
   background-color: var(--accent-color);
@@ -168,9 +197,13 @@ h6 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: var(--accent-color);
-  /* margin-top: auto;
-  display: block; */
+  margin: 0 auto;
+  display: block;
+  /* margin-top: 30px; */
+  margin-bottom: 294px;
 }
+
+/*  */
 
 /* .hero-button:hover,
 .hero-button:focus {
@@ -207,6 +240,10 @@ h6 {
   background-color: tomato;
 }
 
+.fiatures-list .fiatures-item:nth-child(4n) {
+  margin-right: 0;
+}
+
 .fiatures-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -240,6 +277,20 @@ h6 {
   display: flex;
 }
 
+.team-item {
+  margin-right: 30px;
+}
+
+.team-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+/* 
+.team-list .card-team-item {
+  margin-top: 94px;
+  margin-bottom: 50px;
+} */
+
 .title {
   color: var(--primery-text-color);
   font-weight: 700;
@@ -256,6 +307,7 @@ h6 {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .team-text {
   color: var(--title-text-color);
   font-weight: 400;
@@ -344,6 +396,7 @@ h6 {
   width: 370px;
   background-color: tomato;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .cards-item:nth-child(3n) {
@@ -372,4 +425,7 @@ h6 {
   margin-top: 100px;
   margin-bottom: 50px;
   border-radius: 4px;
+}
+.footer {
+  margin-top: 94px;
 }
