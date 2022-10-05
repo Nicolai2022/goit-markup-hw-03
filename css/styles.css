@@ -408,17 +408,19 @@ img {
   background-color: var(--section-bg-color);
 } */
 
+.cards-title-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
 .cards-title {
   color: var(--primery-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
   padding-bottom: 4px;
-  padding-left: 24px;
-  /* margin-top: 20px; */
-  /* margin-left: 24px; */
 }
 
 .cards-text {
@@ -427,10 +429,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  /* margin-bottom: 20px;
-  margin-left: 24px; */
 }
 
 .link {
