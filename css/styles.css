@@ -212,6 +212,7 @@ img {
 .hero-title {
   margin-top: 0px;
   padding-top: 200px;
+  padding-bottom: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
   /* margin-right: 230px;
@@ -519,6 +520,7 @@ img {
 
 .filter-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
   /* margin-bottom: 30px; */
