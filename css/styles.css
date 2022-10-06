@@ -227,9 +227,8 @@ img {
 }
 
 /* button замовити послугу */
+
 .hero-button {
-  /* padding-top: 30px;
-  padding-bottom: 200px; */
   min-width: 216px;
   /* min-height: 50px; */
   background-color: var(--accent-color);
